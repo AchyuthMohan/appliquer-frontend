@@ -3,27 +3,32 @@ import './NavBar.css'
 
 function NavBar() {
   return (
-    <div className='container'><nav>
-    <div class="logo">
-        <img src="logo.svg" alt="Logo Image"/>
-    </div>
-    <div class="hamburger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-    </div>
-    <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Solutions</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><button class="login-button" href="#">Login</button></li>
-        <li><button class="join-button" href="#">Join</button></li>
-    </ul>
-</nav>
+    <body>
+    <nav>
+      <div class="navbar">
+        <div class="navcontainer nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>  
+          <div class="logo">
+            <h1>Navbar</h1>
+          </div>
+          <div class="menu-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">blogs</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">contact</a></li>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
 
-</div>
+
   )
 }
 

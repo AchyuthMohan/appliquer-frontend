@@ -2,6 +2,13 @@ import React from 'react'
 import './Cards.css'
 
 function Cards() {
+
+const handleSubmit=(e)=>{
+  console.log(e);
+  
+}
+
+
   return (
     <div class="container">
   <div class="card">
@@ -10,7 +17,7 @@ function Cards() {
     </div>
     <div class="card__body">
       <span class="tag tag-blue">Technology</span>
-      <h4>What's new in 2022 Tech</h4>
+      <h4>Web Developer</h4>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
     </div>
     <div class="card__footer">
@@ -23,7 +30,7 @@ function Cards() {
     </div>
     <div class="card__body">
       <span class="tag tag-brown">Food</span>
-      <h4>Delicious Food</h4>
+      <h4>Data Analyst</h4>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
     </div>
     <div class="card__footer">
@@ -36,11 +43,11 @@ function Cards() {
     </div>
     <div class="card__body">
       <span class="tag tag-red">Automobile</span>
-      <h4>Race to your heart content</h4>
+      <h4>UX Designer</h4>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!</p>
     </div>
     <div class="card__footer">
-    <button>Apply</button>
+    <button onClick={(e)=>handleSubmit(e)} >Apply</button>
     </div>
   </div>
 </div>
