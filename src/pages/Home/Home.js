@@ -1,6 +1,6 @@
 import React from 'react'
-import NavBar from '../../components/NavBar/NavBar'
-import Carousel from '../../components/Carousel/Carousel'
+import NavBar from '../../components/Navbar/NavBar'
+import CarouselComponent from '../../components/Caarousel/CarouselComponent'
 import Cards from '../../components/Cards/Cards'
 
 
@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
         <NavBar/>
-        <Carousel/>
+        <CarouselComponent/>
         <Cards/>
 
     </div>
